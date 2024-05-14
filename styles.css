@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --vioalet-1: blueviolet;
+}
+
+body {
+    background-color: dimgray;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fcc-logo {
+    width: 400px;
+    height: 100px;
+    border-radius: 2px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#question {
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.information {
+    display: grid;
+    grid-template-columns: 35px auto;
+    margin: 20px 3rem;
+    background-color: azure;
+    border-radius: 2px;
+    padding: 18px;
+    width: 400px;
+}
+
+.information p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+
+.fa-solid {
+    margin: 28px 4px;
+    color: var(--vioalet-1);
+    font-size: 20px;
+}
+
+#form-check {
+    background-color: var(--vioalet-1);
+    padding: 30px;
+    width: 400px;
+}
+
+#text-input {
+    width: 210px;
+    height: 46px;
+    border-radius: 3px;
+    margin: 0 10px;
+    margin-top: 25px;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+}
+
+#check-btn {
+    border-radius: 3px;
+    font-weight: bolder;
+    font-size: large;
+    width: 80px;
+    height: 49px;
+}
+
+#check-btn:hover {
+    background-color: var(--vioalet-1);
+    color: aliceblue;
+}
+
+#result {
+    padding: 10px;
+    text-align: center;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: large;
+    color:antiquewhite;
+}
+
+label {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+    font-weight: bold;
+    font-size: 15px;
+}
