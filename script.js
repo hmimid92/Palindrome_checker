@@ -39,7 +39,6 @@ checkBtn.addEventListener("click", (e) => {
 });
 
 textInput.addEventListener("keydown", (e) => {
-	console.log(e.key);
 	if (e.key === "Enter") {
 		e.preventDefault();
 		checkPalindrome();

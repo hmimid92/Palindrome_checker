@@ -84,6 +84,7 @@ nav {
     font-size: large;
     width: 80px;
     height: 49px;
+    cursor: pointer;
 }
 
 #check-btn:hover {
